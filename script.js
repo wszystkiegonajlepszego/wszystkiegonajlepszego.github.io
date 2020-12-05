@@ -16,7 +16,7 @@ function countUpFromTime(countFrom, id) {
 
   years = Math.floor(timeDifference / (secondsInADay) / 355);
   days = Math.floor(timeDifference / (secondsInADay) * 1 - (years) * 365);
-  hours = Math.floor((timeDifference % (secondsInADay)) / (secondsInAHour) * 1);
+  hours = Math.floor((timeDifference % (secondsInADay)) / (secondsInAHour) * 1 - 1);
   mins = Math.floor(((timeDifference % (secondsInADay)) % (secondsInAHour)) / (60 * 1000) * 1);
   secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
 
