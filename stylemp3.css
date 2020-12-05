@@ -2,7 +2,7 @@ body {
     background-color: #ffe6fd;
     text-align: center;
     font-family: Verdana;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 img {
@@ -28,5 +28,5 @@ img {
 }
 
 #div2 {
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 }
